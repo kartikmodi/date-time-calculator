@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  When updating your version of GWT, you should also update this DTD reference,
+  so that your app can take advantage of the latest GWT module capabilities.
+-->
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.0//EN"
+  "http://gwtproject.org/doctype/2.8.0/gwt-module.dtd">
+<module rename-to='date_time_difference_calculator___duration_subtraction___diff_of_2_date_time'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+
+  <!-- Inherit the default GWT style sheet.  You can change       -->
+  <!-- the theme of your GWT application by uncommenting          -->
+  <!-- any one of the following lines.                            -->
+  <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+    <!-- <inherits name="gwt.material.design.GwtMaterialDesign" /> --> 
+     <inherits name="gwt.material.design.GwtMaterialWithJQuery" />   
+    <!--  <inherits name="gwt.material.design.jquery.JQuery" />   -->
+   <inherits name="gwt.material.design.addins.GwtMaterialAddins" />
+  <inherits name="gwt.material.design.themes.ThemeBlue"/>
+  <inherits name="gwt.material.design.GwtMaterialTable" />
+ 
+  <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+  <!-- Other module inherits                                      -->
+
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='com.emodiz.date.time.diff.client.Date_Time_Difference_Calculator___Duration_Subtraction___Diff_of_2_Date_Time'/>
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+  <source path='shared'/>
+
+  <!-- allow Super Dev Mode -->
+  <add-linker name="xsiframe"/>
+</module>
