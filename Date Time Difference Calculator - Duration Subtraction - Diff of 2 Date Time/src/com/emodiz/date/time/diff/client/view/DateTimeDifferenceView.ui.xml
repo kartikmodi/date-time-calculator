@@ -10,22 +10,20 @@
 	<m:MaterialPanel>
 		<m:MaterialHeader>
 			<m:MaterialNavBar activates="sidebar"
-				layoutPosition='FIXED'>
+				layoutPosition='FIXED' >
 				<m:MaterialNavBrand text="Date Time Difference"
 					paddingLeft="20"></m:MaterialNavBrand>
-				<m:MaterialNavSection float="RIGHT">
-					<m:MaterialLink text="Login"></m:MaterialLink>
-				</m:MaterialNavSection>
 			</m:MaterialNavBar>
-			<m:MaterialSideNav m:id="sidebar" 
-				alwaysShowActivator="true" width="280" shadow="1">
-				<m:MaterialNavBrand paddingTop="20" text="Apps" textAlign="CENTER"
-					fontSize="1.5em" />
-				<m:MaterialLink iconType="DATE_RANGE" text="Date Time Calculator" ui:field="dateTimeCalculatorLink">
-				</m:MaterialLink>
-				<m:MaterialLink iconType="INFO" text="About" ui:field="aboutLink"/>
-			</m:MaterialSideNav>
 		</m:MaterialHeader>
+		<m:MaterialSideNav m:id="sidebar"
+			alwaysShowActivator="true" width="280" closeOnClick="true">
+			<m:MaterialNavBrand text="Apps"
+				textAlign="CENTER" fontSize="1.5em" paddingTop="20"/>
+			<m:MaterialLink iconType="DATE_RANGE" text="Date Time Difference"
+				ui:field="dateTimeCalculatorLink">
+			</m:MaterialLink>
+			<m:MaterialLink iconType="INFO" text="About" ui:field="aboutLink" />
+		</m:MaterialSideNav>
 		<m:MaterialContainer paddingTop="65" ui:field="contentContainer">
 		</m:MaterialContainer>
 	</m:MaterialPanel>
