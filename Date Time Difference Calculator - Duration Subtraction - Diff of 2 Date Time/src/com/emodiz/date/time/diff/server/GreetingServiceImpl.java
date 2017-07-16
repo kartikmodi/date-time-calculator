@@ -1,6 +1,6 @@
 package com.emodiz.date.time.diff.server;
 
-import com.emodiz.date.time.diff.client.GreetingService;
+import com.emodiz.date.time.diff.client.api.GreetingService;
 import com.emodiz.date.time.diff.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 

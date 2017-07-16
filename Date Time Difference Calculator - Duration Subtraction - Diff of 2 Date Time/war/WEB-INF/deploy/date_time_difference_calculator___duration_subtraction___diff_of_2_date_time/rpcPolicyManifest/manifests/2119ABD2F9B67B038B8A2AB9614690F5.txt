@@ -1,0 +1,2 @@
+serviceClass: com.emodiz.date.time.diff.client.api.GreetingService
+path: 5C347E431CACF49CCAA4C2B09B3C900A.gwt.rpc

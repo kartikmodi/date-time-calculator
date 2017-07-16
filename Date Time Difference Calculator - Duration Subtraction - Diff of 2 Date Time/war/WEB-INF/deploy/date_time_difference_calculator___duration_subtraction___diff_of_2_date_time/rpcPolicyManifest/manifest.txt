@@ -1,3 +1,3 @@
 # Module date_time_difference_calculator___duration_subtraction___diff_of_2_date_time
 # RPC service class, partial path of RPC policy file
-com.emodiz.date.time.diff.client.GreetingService, 75719D8DC5D885C935D7F79C685B6446.gwt.rpc
+com.emodiz.date.time.diff.client.api.GreetingService, 5C347E431CACF49CCAA4C2B09B3C900A.gwt.rpc

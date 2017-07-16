@@ -1,5 +1,8 @@
 package com.emodiz.date.time.diff.client;
 
+import com.emodiz.date.time.diff.client.api.GreetingService;
+import com.emodiz.date.time.diff.client.api.GreetingServiceAsync;
+import com.emodiz.date.time.diff.client.presenter.DateTimeDifferencePresenter;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.ui.RootPanel;

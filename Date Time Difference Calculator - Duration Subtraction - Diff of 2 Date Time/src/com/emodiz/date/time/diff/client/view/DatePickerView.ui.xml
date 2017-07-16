@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:m="urn:import:gwt.material.design.client.ui">
+	<m:MaterialPanel>
+		<m:MaterialDatePicker ui:field="datePicker"
+			 autoClose="true" selectionType="YEAR" yearsToDisplay="100" detectOrientation="true"/>
+		<m:MaterialButton ui:field="todaysDate" text="Today"
+			waves="LIGHT" textColor="WHITE" />
+		<m:MaterialButton ui:field="clearDate" text="Clear"
+			waves="DEFAULT" backgroundColor="WHITE" textColor="BLACK" />
+	</m:MaterialPanel>
+
+</ui:UiBinder> 
