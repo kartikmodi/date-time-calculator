@@ -1,0 +1,2 @@
+serviceClass: com.emodiz.doctalk.task.client.GreetingService
+path: 27C2FBB674944C2CCE8A6EFD4F23170D.gwt.rpc

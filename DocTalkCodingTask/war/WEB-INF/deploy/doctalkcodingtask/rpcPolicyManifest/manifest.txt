@@ -1,0 +1,3 @@
+# Module doctalkcodingtask
+# RPC service class, partial path of RPC policy file
+com.emodiz.doctalk.task.client.GreetingService, 27C2FBB674944C2CCE8A6EFD4F23170D.gwt.rpc
